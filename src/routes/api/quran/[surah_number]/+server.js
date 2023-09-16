@@ -5,6 +5,7 @@ import quranData from '/static/data/merged_data.json'; // Replace with the path 
 export async function GET({ params }) {
 	try {
 		const sura_number = params.surah_number;
+		if (sura_number < 1 || sura_number > 114) return error(404, 'Surah not found');
 		const surah = quranData.filter((s) => s.sura_no === parseInt(sura_number));
 		if (!surah) {
 			return error(404, 'Surah not found');
