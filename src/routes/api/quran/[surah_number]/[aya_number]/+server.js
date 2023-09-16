@@ -6,7 +6,6 @@ export async function GET({ params }) {
 	try {
 		const sura_no = params.surah_number;
 		const aya_no = params.aya_number;
-		console.log(params);
 		const surah = quranData.filter((s) => s.sura_no === parseInt(sura_no));
 		if (!surah) {
 			return error(404, 'Surah not found');
