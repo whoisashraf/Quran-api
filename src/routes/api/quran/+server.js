@@ -1,5 +1,5 @@
 import { json, error } from '@sveltejs/kit';
-import quranData from '/static/data/merged_data.json'; // Replace with the path to your merged data JSON file
+import quranData from '/static/data/merged_data.json'; //Path to your merged data JSON file
 
 // Endpoint 1: Get the Whole Quran Data
 export async function GET() {
