@@ -25,7 +25,7 @@
 
 			<div class="mx-auto max-w-3xl text-center">
 				<p class="text-lg text-gray-400">
-					Al-Quran Api is an open source api for the Holy Book, translation(Saheeh International)
+					An is an open source api for the Holy Book, translation(Saheeh International)
 					and Uthmani font included :)
 				</p>
 			</div>
